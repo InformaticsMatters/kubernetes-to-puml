@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kubernetes-to-puml"
+version = "0.1.0"
+description = "A utility to convert a cluster to a diagram"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "kubernetes_to_puml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kubernetes = "20.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
